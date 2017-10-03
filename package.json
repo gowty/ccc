@@ -1,27 +1,24 @@
 {
-  "name": "pronew",
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "name": "ccc",
+  "description":
+    "Aurora Template - [Demo](http://dominikserafin.github.io/aurora-template) ===============",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "test": "node app.js"
   },
-  "engines": {
-    "node": "5.9.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gowty/ccc.git"
-  },
-  "author": "baymax",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gowty/ccc/issues"
-  },
-  "keywords": ["node", "heroku", "express"],
-  "homepage": "",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.16.1"
   }
 }
